@@ -2,29 +2,18 @@
 
 This example is based off of the [Play Framework Hello World Tutorial](https://github.com/playframework/play-samples/tree/2.8.x/play-scala-hello-world-tutorial). 
 
-To follow the steps in this tutorial, you will need the correct version of Java, sbt, and Maven. The template requires:
+To follow the steps in this tutorial you will need the following tools installed locally: 
 
-* Java Software Developer's Kit (SE) 1.8 or higher
-* sbt 1.3.4 or higher. Note: if you downloaded this project as a zip file from <https://developer.lightbend.com>, the file includes an sbt distribution for your convenience.
-* Maven
-
-To check your Java version, enter the following in a command window:
-
-```bash
-java -version
-```
+* [Java 11](https://docs.microsoft.com/en-us/java/openjdk/download#openjdk-11)
+* [sbt v1.3.4 or greater](http://www.scala-sbt.org/download.html)
+* [Maven](https://maven.apache.org/install.html) (Or install the Azure CLI)
+* [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) (Or use Maven)
 
 To check your sbt version, enter the following in a command window:
 
 ```bash
 sbt sbtVersion
 ```
-
-If you do not have the required versions, follow these links to obtain them:
-
-* [Java SE](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* [sbt](http://www.scala-sbt.org/download.html)
-* [maven](https://maven.apache.org/install.html)
 
 ## Build and run the project
 
